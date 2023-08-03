@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./img/favicon_wb.ico" type="image/vnd.microsoft.icon"/>
-    <link rel="stylesheet" href="scss/styles.scss"/>
+    <link rel="stylesheet" href="./scss/styles.scss"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
 
     <title>Wildberries clone</title>
@@ -15,15 +15,15 @@
 
     <header class="header">
         <a href="" class="header__link">
-          <img src="img/logo_wb.svg" alt="Wildberries Logo" class="header__link-image"/>
+          <img src="./img/logo_wb.svg" alt="Wildberries Logo" class="header__link-image"/>
         </a>
         <input type="search" class="header__search" placeholder="Искать на Wildberries" />
         <button class="header__profile">
-          <img src="img/profile_wb.svg" alt="profile image" />
+          <img src="./img/profile_wb.svg" alt="profile image" />
           <span>Войти</span>
         </button>
         <button class="header__basket">
-          <img src="img/basket_wb.svg" alt="basket image" />
+          <img src="./img/basket_wb.svg" alt="basket image" />
           <span>Корзина</span>
           <div class="basket_count modal__hide"></div>
         </button>
@@ -35,10 +35,10 @@
       <main class="main">
         <div class="swiper">
           <div class="swiper__line">
-            <img src="img/swiper/swip_1.jpg" alt="Swiper Slide" />
-            <img src="img/swiper/swip_2.jpg" alt="Swiper Slide" />
-            <img src="img/swiper/swip_3.jpg" alt="Swiper Slide" />
-            <img src="img/swiper/swip_4.jpg" alt="Swiper Slide" />
+            <img src="./img/swiper/swip_1.jpg" alt="Swiper Slide" />
+            <img src="./img/swiper/swip_2.jpg" alt="Swiper Slide" />
+            <img src="./img/swiper/swip_3.jpg" alt="Swiper Slide" />
+            <img src="./img/swiper/swip_4.jpg" alt="Swiper Slide" />
           </div>
   
           <div class="swiper__buttons">
@@ -60,17 +60,17 @@
 
             <!-- карточки -->
 
-        <section class="section_cards">
-            <h2>Хиты продаж</h2>
-            <ul class="container_cards"></ul>
-        </section>
-          
+            <section class="section_cards">
+              <h2>Хиты продаж</h2>
+              <ul class="container_cards" id="productCards"></ul>
+          </section>
+    
       </main>
 
 
 
 </body>
 
-<script type="module" src="js/index.js"></script>
+<script type="module" src="./js/index.js"></script>
 
 </html>
