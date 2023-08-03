@@ -1,5 +1,5 @@
 .modal__basket_header{
-    // display: center;
+    display: center;
     // grid-template-columns: repeat(2, 1fr);
     margin: 5px;
 }
@@ -17,23 +17,23 @@
     overflow: auto;
 }
 
-.modal__basket_clean{
-    align-self: center;
-    // margin: 0 0 0 90px;
-    // padding: 5px;
-    width: 25%;
-    height: 35%;
-    background-color: #37405a;
-    color: #fff;
-    border-radius: 10px;
-    font-size: 14px;
-    cursor: pointer;
-    transition: .3s;
-}
+// .modal__basket_clean{
+//     align-self: center;
+//     // margin: 0 0 0 90px;
+//     // padding: 5px;
+//     width: 25%;
+//     height: 35%;
+//     background-color: #37405a;
+//     color: #fff;
+//     border-radius: 10px;
+//     font-size: 14px;
+//     cursor: pointer;
+//     transition: .3s;
+// }
 
-.modal__basket_clean:hover{
-    background-color: #eb4545;
-}
+// .modal__basket_clean:hover{
+//     background-color: #eb4545;
+// }
 
 .basket_card{
     border-bottom: 1px solid rgba($color: #6e7376, $alpha: 0.5);
@@ -92,14 +92,14 @@
 
 .modal_basket_total{
     position: absolute;
-    bottom: 55px;
+    bottom: 5px;
     left: 5px;
 }
 
 .modal_basket_order_total{
     position: absolute;
     right: 7px;
-    bottom: 55px;
+    bottom: 5px;
 }
 
 .modal_basket_order_wrapper{
@@ -107,20 +107,24 @@
 }
 
 .modal_basket_order{
-    width: 86%;
-    height: 50px;
-    font-size: 14px;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 40px;
+    font-size: 16px;
     background-color: #cb11ab;
     color: #fff;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     position: absolute;
-    bottom: 15px;
+    bottom: 17px;
     transition: .3s;
 }
 
 .modal_basket_order:hover{
-    background-color: #d238b8;
+    background-color: #24041e;
 }
 
 @media (max-width: 768px) {
