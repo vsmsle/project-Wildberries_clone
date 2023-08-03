@@ -12,12 +12,25 @@ footer {
         font-size: 1rem;
 
       }
+      
       &__title {
         font-weight: 700;
         color: #fff !important;
         padding: 2rem 0 0.5rem !important;
     
       }
+
+    //   &__img {
+    //     ul {
+    //     //   display: flex;
+    //     //   justify-content: center;
+    //     //   gap: 1rem;
+    //     //   list-style-type: none;
+    //     //   padding: 2rem 0;
+    //       cursor: pointer;
+    //     }
+    //   }
+
     }
     
     .footer__info p::placeholder {
@@ -29,18 +42,9 @@ footer {
     
     .footer__copyright {
       padding: 1.5rem 1rem;
-      font-size: 0.8rem;
+      font-size: 0.83rem;
       text-align: center;
       color: rgba(255, 255, 255, 0.7);
-      &__image {
-        ul {
-          display: flex;
-          justify-content: center;
-          gap: 1rem;
-          list-style-type: none;
-          padding: 2rem 0;
-        }
-      }
     }
   }
 
